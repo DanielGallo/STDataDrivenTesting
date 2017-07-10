@@ -1,0 +1,34 @@
+{
+    "framework": "jasmine",
+    "libs": [],
+    "coverageFilters": [],
+    "scenarios": [
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "/test/DataTests/lib",
+                    "type": "directory"
+                }
+            ],
+            "coverageFilters": [],
+            "webdriverContext": "webdriver",
+            "sandbox": true,
+            "globals": "*",
+            "directory": "DataTests",
+            "name": "DataTests"
+        },
+        {
+            "libs": [],
+            "coverageFilters": [],
+            "webdriverContext": "webdriver",
+            "sandbox": true,
+            "globals": "*",
+            "directory": "Login",
+            "name": "Login",
+            "page": "https://se.sencha.com/AssetRegister"
+        }
+    ],
+    "pageObjects": [],
+    "subjectUrl": "http://examples.sencha.com/ExtReact/6.5.0/kitchensink/#/grids/core_features/basic_grid"
+}
